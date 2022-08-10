@@ -1,0 +1,22 @@
+.form-container {
+    text-align: center;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-border {
+    padding: 2rem 4rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}

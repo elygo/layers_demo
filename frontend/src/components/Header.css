@@ -1,0 +1,35 @@
+.navbar {
+    position: sticky;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid gray;
+}
+
+.nav__ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.nav__ul li {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+  
+.nav__ul a {
+    font-size: 20px;
+    line-height: 24px;
+    color: #446ffe;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.nav__ul a:hover {
+    border-bottom: #446ffe solid 1px;
+}
